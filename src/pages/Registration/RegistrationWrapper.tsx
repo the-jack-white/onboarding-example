@@ -53,6 +53,7 @@ const RegistrationWrapper = () => {
       <ProgressBar
         showBackButton={currentComponent.showBackButton}
         backButtonCallback={backButtonHandler}
+        percentage={currentComponent.completion}
       />
       <ComponentsRenderer
         component={currentComponent}

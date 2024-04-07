@@ -22,7 +22,7 @@ export const components: Component[] = [
     uri: "step-one",
     nextUri: "step-two",
     showBackButton: false,
-    completion: 25,
+    completion: 0,
   },
 
   {
@@ -35,7 +35,7 @@ export const components: Component[] = [
     uri: "step-two",
     nextUri: "step-three",
     showBackButton: true,
-    completion: 50,
+    completion: 25,
   },
   {
     id: "3",
@@ -47,6 +47,6 @@ export const components: Component[] = [
     uri: "step-three",
     nextUri: "step-undefined",
     showBackButton: true,
-    completion: 75,
+    completion: 50,
   },
 ];
